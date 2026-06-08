@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOBUR | Creative Digital Studio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">BOBUR<span>.</span></a>
+            <nav class="nav">
+                <a href="#about" class="nav-link">О нас</a>
+                <a href="#services" class="nav-link">Услуги</a>
+                <a href="#portfolio" class="nav-link">Портфолио</a>
+                <a href="#contact" class="nav-link btn-contact">Связаться</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-container">
+            <h1 class="hero-title">Создаем будущее <br><span class="gradient-text">digital-пространства</span></h1>
+            <p class="hero-subtitle">Мы — студия BOBUR. Мы превращаем смелые идеи в идеальный код, потрясающий дизайн и
+                работающие бизнес-решения.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">Смотреть работы</a>
+                <a href="#services" class="btn btn-secondary">Наши услуги</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2 class="section-title">Кто мы такие?</h2>
+                <p>BOBUR — это команда единомышленников, визуализаторов и разработчиков. Мы не просто создаем сайты, мы
+                    проектируем уникальный пользовательский опыт, который заставляет людей влюбляться в ваш бренд.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Успешных проектов</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>Лет на рынке</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Довольных клиентов</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image-box">
+                <div class="abstract-shape"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title center">Что мы делаем</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✦</div>
+                    <h3>Веб-Дизайн</h3>
+                    <p>Создание уникальных, современных и интуитивно понятных интерфейсов для UI/UX мобильных и
+                        веб-приложений.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Разработка</h3>
+                    <p>Качественный, чистый код с использованием передовых технологий. Быстрая загрузка и адаптивность
+                        гарантированы.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Брендинг</h3>
+                    <p>Разработка фирменного стиля, логотипов и айдентики, которая выделит вашу компанию среди сотен
+                        конкурентов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title center">Наши работы</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-info">
+                        <h3>Crypto Platform</h3>
+                        <p>UI/UX Design & Frontend</p>
+                    </div>
+                </div>
+                <div class="portfolio-item p-2">
+                    <div class="portfolio-info">
+                        <h3>E-Commerce App</h3>
+                        <p>Development & Branding</p>
+                    </div>
+                </div>
+                <div class="portfolio-item p-3">
+                    <div class="portfolio-info">
+                        <h3>Corporate Website</h3>
+                        <p>Full-cycle production</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container contact-container">
+            <h2 class="section-title">Начнем проект?</h2>
+            <p class="contact-desc">Оставьте заявку, и мы свяжемся с вами в течение часа, чтобы обсудить ваши идеи.</p>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Форма отправлена! (Демо)');">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш Email" required>
+                <textarea placeholder="Расскажите о вашем проекте" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 BOBUR Studio. Все права защищены.</p>
+            <div class="footer-links">
+                <a href="#">Telegram</a>
+                <a href="#">Instagram</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
